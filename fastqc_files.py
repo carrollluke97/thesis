@@ -1,6 +1,6 @@
 import os 
 
-seq_dir="/home/lukec/Documents/MA5114/FastQC/STEAK-master/testdata/test_dataset2"
+seq_dir="/home/lukec/Documents/MA5114/FastQC/STEAK-master/testdata/test_dataset"
 fastqc_dir="/home/lukec/Documents/MA5114/FastQC/STEAK-master/fastqc_output"
 
 file_list=os.listdir(seq_dir)
@@ -21,5 +21,5 @@ for seq in file_list:
 
     print("#done")
 
-    # look in settings to see if the environment recognises fastqc .bashrc
+    
     
